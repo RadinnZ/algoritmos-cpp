@@ -1,6 +1,6 @@
 # 📚 Algoritmos e Programação em C++
 
-> Repositório de exercícios desenvolvidos na disciplina de **Introdução à Ciência da Computação**  
+> Repositório de exercícios desenvolvidos na disciplina de **Algoritmos e Programação**  
 > Universidade do Vale do Itajaí — UNIVALI
 
 ---
