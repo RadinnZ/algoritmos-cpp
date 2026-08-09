@@ -1,4 +1,4 @@
-# 🔁 Exercícios de Laços de Repetição
+git status# 🔁 Exercícios de Laços de Repetição
 
 Algoritmos com uso de estruturas de repetição (`for`, `while`), acumuladores e contadores.
 

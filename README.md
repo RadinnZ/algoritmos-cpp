@@ -12,6 +12,7 @@
 | [`sequenciais/`](./sequenciais/) | Exercícios de algoritmos sequenciais |
 | [`lacos/`](./lacos/) | Exercícios de laços de repetição |
 | [`vetores/`](./vetores/) | Exercícios de vetores (arrays) |
+| [`funcoes/`](./funcoes/) | Exercícios de funções e procedimentos |
 
 ---
 
@@ -63,6 +64,24 @@ Exercícios com uso de arrays unidimensionais, percurso por índice e operaçõe
 | Q02 | [vet_q02_maiores_que_primeiro.cpp](./vetores/vet_q02_maiores_que_primeiro.cpp) | Conta quantos elementos são maiores que o primeiro |
 | Q03 | [vet_q03_multiplicacao_indices.cpp](./vetores/vet_q03_multiplicacao_indices.cpp) | Multiplica elementos de mesmo índice em um terceiro vetor |
 | Q04 | [vet_q04_somatorio_cruzado.cpp](./vetores/vet_q04_somatorio_cruzado.cpp) | Somatório cruzado: A[i] + B[fim-i] acumulado |
+
+---
+
+## 🧩 Funções
+
+Exercícios de funções e procedimentos: passagem por valor, passagem por referência e retorno de valores.
+
+| # | Arquivo | Descrição |
+|---|---|---|
+| Q01 | [func_q01_sinal.cpp](./funcoes/func_q01_sinal.cpp) | Função que verifica se um número é positivo ou negativo |
+| Q02 | [func_q02_dobrar_valor.cpp](./funcoes/func_q02_dobrar_valor.cpp) | Procedimento que dobra um valor por parâmetro (passagem por valor) |
+| Q03 | [func_q03_trocar.cpp](./funcoes/func_q03_trocar.cpp) | Procedimento que troca dois valores (passagem por referência) |
+| Q04 | [func_q04_peso_ideal.cpp](./funcoes/func_q04_peso_ideal.cpp) | Função que calcula o peso ideal a partir de altura e sexo |
+| Q05 | [func_q05_castigo.cpp](./funcoes/func_q05_castigo.cpp) | Procedimento que imprime uma frase N vezes |
+| Q06 | [func_q06_resto_sem_modulo.cpp](./funcoes/func_q06_resto_sem_modulo.cpp) | Função que calcula o resto da divisão sem usar o operador `%` |
+| Q07 | [func_q07_quociente_resto.cpp](./funcoes/func_q07_quociente_resto.cpp) | Procedimento que calcula quociente e resto (parâmetros por referência) |
+| Q08 | [func_q08_mdc.cpp](./funcoes/func_q08_mdc.cpp) | Função que calcula o M.D.C. entre dois números (algoritmo de Euclides por subtração) |
+| Q09 | [func_q09_serie.cpp](./funcoes/func_q09_serie.cpp) | Função que calcula o valor de uma série S com termo geral (1 + i²) / i |
 
 ---
 
