@@ -13,6 +13,7 @@
 | [`lacos/`](./lacos/) | Exercícios de laços de repetição |
 | [`vetores/`](./vetores/) | Exercícios de vetores (arrays) |
 | [`funcoes/`](./funcoes/) | Exercícios de funções e procedimentos |
+| [`templates/`](./templates/) | Exercícios de templates de função |
 
 ---
 
@@ -80,8 +81,30 @@ Exercícios de funções e procedimentos: passagem por valor, passagem por refer
 | Q05 | [func_q05_castigo.cpp](./funcoes/func_q05_castigo.cpp) | Procedimento que imprime uma frase N vezes |
 | Q06 | [func_q06_resto_sem_modulo.cpp](./funcoes/func_q06_resto_sem_modulo.cpp) | Função que calcula o resto da divisão sem usar o operador `%` |
 | Q07 | [func_q07_quociente_resto.cpp](./funcoes/func_q07_quociente_resto.cpp) | Procedimento que calcula quociente e resto (parâmetros por referência) |
-| Q08 | [func_q08_mdc.cpp](./funcoes/func_q08_mdc.cpp) | Função que calcula o M.D.C. entre dois números (algoritmo de Euclides por subtração) |
+| Q08 | [func_q08_mdc.cpp](./funcoes/func_q08_mdc.cpp) | Função que calcula o M.D.C. entre dois números (algoritmo de Euclides) |
 | Q09 | [func_q09_serie.cpp](./funcoes/func_q09_serie.cpp) | Função que calcula o valor de uma série S com termo geral (1 + i²) / i |
+
+---
+
+## 🧬 Templates
+
+Exercícios de **templates de função**: generalização de código, dedução de tipos, especialização e programação genérica.
+
+| Bloco | Arquivo | Descrição |
+|---|---|---|
+| A | [exercicio1.cpp](./templates/bloco_a/exercicio1.cpp) | Troca genérica com `template`: testa com `int`, `double`, `char` e `string` |
+| A | [exercicio2.cpp](./templates/bloco_a/exercicio2.cpp) | Procedimento genérico que imprime um vetor de qualquer tipo |
+| A | [exercicio3.cpp](./templates/bloco_a/exercicio3.cpp) | Substitui três funções `dobro` por um único template |
+| A | [exercicio4.cpp](./templates/bloco_a/exercicio4.cpp) | Verifica se um valor está dentro de um intervalo `[min, max]` |
+| B | [exercicio5.cpp](./templates/bloco_b/exercicio5.cpp) | Diagnóstico e correção de erro de dedução com tipos mistos |
+| B | [exercicio6.cpp](./templates/bloco_b/exercicio6.cpp) | Previsão de quais chamadas de `soma<T>` compilam e qual saída produzem |
+| B | [exercicio7.cpp](./templates/bloco_b/exercicio7.cpp) | Template que gera erro apenas quando instanciado com tipo incompatível |
+| C | [exercicio8.cpp](./templates/bloco_c/exercicio8.cpp) | Variável `static` em template: cada tipo gera seu próprio contador |
+| C | [exercicio9.cpp](./templates/bloco_c/exercicio9.cpp) | Soma genérica dos elementos de um vetor |
+| C | [exercicio10.cpp](./templates/bloco_c/exercicio10.cpp) | Conta quantos elementos de um vetor são maiores que um limite |
+| D | [exercicio11.cpp](./templates/bloco_d/exercicio11.cpp) | Retorna menor e maior de um vetor por referência em uma única passagem |
+| D | [exercicio12.cpp](./templates/bloco_d/exercicio12.cpp) | Template com dois parâmetros de tipo para imprimir pares de valores |
+| D | [exercicio13.cpp](./templates/bloco_d/exercicio13.cpp) | Especialização: versão genérica usa soma, versão `bool` usa OU lógico |
 
 ---
 
